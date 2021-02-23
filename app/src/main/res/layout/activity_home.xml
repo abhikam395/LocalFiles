@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity"
+    tools:context=".activities.HomeActivity"
     android:orientation="vertical"
     android:gravity="center">
 
@@ -30,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/music"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_marginTop="30px"
                 android:textStyle="bold"/>
 
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pdf"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_marginTop="30px"
                 android:textStyle="bold"/>
 
@@ -85,7 +85,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/video"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_marginTop="30px"
                 android:textStyle="bold"/>
 
@@ -109,7 +109,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/gallery"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:layout_marginTop="30px"
                 android:textStyle="bold"/>
 
