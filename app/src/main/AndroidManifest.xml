@@ -2,18 +2,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.abhikam1525.localfiles">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LocalFiles">
-        <activity android:name=".activities.GalleryActivity"></activity>
+        android:theme="@style/Theme.LocalFiles"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.VideoViewActivity"
+            android:theme="@style/video_view"/>
+        <activity android:name=".activities.GalleryActivity" />
         <activity android:name=".activities.PdfActivity" />
-        <activity android:name=".activities.VideosActivity" />
+        <activity
+            android:name=".activities.VideosActivity"
+            android:configChanges="orientation|screenSize" />
         <activity android:name=".activities.MusicActivity" />
         <activity android:name=".activities.HomeActivity">
             <intent-filter>
