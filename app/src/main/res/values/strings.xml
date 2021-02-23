@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LocalFiles</string>
+    <string name="music">MUSIC</string>
+    <string name="pdf">PDF</string>
+    <string name="video">VIDEO</string>
+    <string name="gallery">GALLERY</string>
+</resources>
